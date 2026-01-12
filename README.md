@@ -4,6 +4,11 @@ This is where I upload all my tasks, assignments, notebooks, and progress throug
 ## Repository Contents
 - Basic Python Programming
 - Internship Tasks
+ ## Flask Tasks
+This folder contains my Flask task projects. Each task demonstrates my understanding of Python Flask for web development, including:
+- Creating a simple web server using Flask
+- Handling routes and user input
+- Displaying dynamic content on web pages
 ## Goals
 - Improve Python skills
 - Learn Data Science step by step
