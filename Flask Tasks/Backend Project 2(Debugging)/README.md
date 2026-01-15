@@ -1,6 +1,6 @@
 # Note Taking Application
 ## Bug Identification & Resolution Report
-Project Overview
+### Project Overview
 This project focused on debugging and improving a Flask-based Note Taking Application.
 The objective was to identify existing issues in the application, understand their root causes,
 and resolve them so the app functions correctly by allowing users to add and display
