@@ -25,5 +25,4 @@ Submitting the form without entering text resulted in empty notes being added.
 - Analyzed the interaction between HTML forms and Flask request handling
 - Identified mismatches between frontend and backend logic
 - Applied input validation to prevent invalid data
-• Identified mismatches between frontend and backend logic
-• Applied input validation to prevent invalid data
+
