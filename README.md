@@ -26,7 +26,6 @@ Each project focuses on understanding how backend applications work and how Pyth
 - Learn Data Science step by step
 - Build ML models
 - Work with real datasets
-- 
 ## Tools
 - Python
 - Jupiter Notebook
