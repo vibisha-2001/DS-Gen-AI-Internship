@@ -21,7 +21,7 @@ Each project focuses on understanding how backend applications work and how Pyth
 - Add and display notes using forms
 - Prevent empty or None inputs
 - Clean request handling and routing
-  # URL Shortener Web Application
+## URL Shortener Web Application
   A simple URL Shortener built using Flask and SQLite.
 - Shortens long URLs
 - Redirects short URLs
