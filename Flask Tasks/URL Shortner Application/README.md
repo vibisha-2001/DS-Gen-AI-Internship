@@ -17,3 +17,7 @@ A simple URL Shortener built using Flask and SQLite.
 ## How to Run
 python app.py
 
+## Project Report
+📄 Download the detailed project report:
+Project Report.pdf
+
