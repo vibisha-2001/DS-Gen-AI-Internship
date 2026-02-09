@@ -1,1 +1,6 @@
-
+# virtual environment
+venv/
+# Flask logs
+nohup.output
+# Sensitive keys
+*.pem
