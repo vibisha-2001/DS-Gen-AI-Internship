@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sentiment Analysis App</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            padding: 50px;
+        }
+        .box {
+            background: white;
+            padding: 25px;
+            border-radius: 8px;
+            max-width: 500px;
+            margin: auto;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        textarea {
+            width: 100%;
+            height: 120px;
+            padding: 10px;
+            margin-top: 10px;
+            resize: none;
+        }
+        button {
+            margin-top: 15px;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .result {
+            margin-top: 15px;
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+<div class="box">
+    <h2>Sentiment Analysis</h2>
+
+    <form method="POST">
+        <label>Enter your review:</label><br>
+        <textarea name="review" placeholder="Type your review here..." required></textarea>
+        <br>
+        <button type="submit">Analyze Sentiment</button>
+    </form>
+
+    {% if sentiment %}
+        <div class="result">
+            Sentiment: {{ sentiment }}
+        </div>
+    {% endif %}
+</div>
+
+</body>
+</html>
